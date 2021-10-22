@@ -122,15 +122,6 @@ html {
 .block_img {
     position: relative;
     padding-top: 6px;
-
-    transform: translate(0px, 120%);
-    opacity: 0;
-    transition: all 0.8s ease 0s;
-}
-
-.block_img {
-    transform: translate(0px, 0px);
-    opacity: 1;
 }
 
 .text {
@@ -161,6 +152,45 @@ html {
     transform: translate(0px, 0px);
     opacity: 1;
     transition: all 0.8s ease 0.8s;
+}
+
+.webmap {
+    color: black;
+    margin: auto;
+    padding: 0px 10px 10px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 20px;
+    font-weight: 100;
+    font-size: 20px;
+    font-style: oblique;
+    text-decoration: none;
+
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
+
+.webmap a {
+    color: black;
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 20px;
+
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
+
+.webmap:hover a {
+    color: #fff;
+    background: rgb(255, 0, 0);
 }
 
 .img_border {
