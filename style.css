@@ -1,6 +1,55 @@
-html {
-    height: 100%;
+@media screen and (min-width: 320px) {
+    body {
+        margin: 0;
+        min-width: 640px;
+    }
+    .img_border {
+        max-height: 270px;
+    }
+    .img_border_wide {
+        max-height: 200px;
+    }
 }
+
+@media screen and (min-width: 1024px) {
+    html {
+        margin: 0;
+        min-width: 1024px;
+    }
+    .img_border {
+        max-height: 500px;
+    }
+    .img_border_wide {
+        max-height: 400px;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    html {
+        margin: 0;
+        min-width: 1366px;
+    }
+    .img_border {
+        max-height: 500px;
+    }
+    .img_border_wide {
+        max-height: 500px;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    html {
+        margin: 0;
+        min-width: 2560px;
+    }
+    .img_border {
+        max-height: 600px;
+    }
+    .img_border_wide {
+        max-height: 600px;
+    }
+}
+
 
 * {
     margin: 0;
@@ -35,6 +84,7 @@ html {
 
 .link:hover {
     background-color: rgb(255, 0, 0);
+    border-radius: 5px;
 }
 
 .head {
@@ -46,7 +96,7 @@ html {
 
 .imgPeople {
     background-color: rgba(119, 0, 255, .5);
-    min-height: 450px; 
+    min-height: 400px;
 }
 
 .head_text {
@@ -124,11 +174,40 @@ html {
     padding-top: 6px;
 }
 
+.buttons {
+    text-align: center;
+}
+
+.button {
+    vertical-align: middle;
+    padding: 15px 15px 15px 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 100;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    
+    margin: 20px 100px 20px 100px;
+}
+
+.button._yes {
+    background-color: rgb(51, 255, 0);
+}
+
+.button._no {
+    background-color: rgb(255, 56, 56);
+}
+
 .text {
     display: inline-block;
     text-align: left;
     vertical-align: top;
-    padding: 10px 50px 40px 50px;
+    padding: 40px 50px 40px 50px;
     min-width: 400px;
     max-width: 800px;
     font-size: 24px;
@@ -193,11 +272,9 @@ html {
     background: rgb(255, 0, 0);
 }
 
-.img_border {
+.img_border, .img_border_wide {
     margin-bottom: 40px;
     position: relative;
-    min-height: 100px;
-    max-height: 500px;
     border: 15px outset;
     border-color: rgb(119, 0, 255);
     
@@ -206,20 +283,29 @@ html {
     transition: all 0.8s ease 0s;
 }
 
-.img_border._active {
+.img_border._active, .img_border_wide._active {
     transform: translate(0px, 0px);
     opacity: 1;
     transition: all 0.8s ease 0.4s;
 }
 
-.paragraph {
+.paragraph, #p, #true {
     display: inline-block;
     text-align: left;
     vertical-align: top;
-    padding: 20px 50px 40px 50px;
+    padding: 20px 0px 40px 0px;
     min-width: 400px;
     max-width: 800px;
     font-size: 24px;
+}
+
+#true {
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    color: red;
+    height: 10px;
+    padding: 20px 20px 30px 20px;
 }
 
 .img {

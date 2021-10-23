@@ -34,3 +34,7 @@ if (animItems.length > 0) {
     setTimeout(() => { animOnScroll(); }, 300);
 }
 
+function ClickFunction() {
+    document.getElementById("true").innerHTML = "Міф";
+    document.getElementById("p").innerHTML = "Масова вакцинація не тільки не призведе до мутації коронавірусу SARS-CoV-2, а й навпаки допоможе запобігти цьому через колективний імунітет. Якщо щепити значну частину населення, то вірусу не буде, де мутувати, і його нові штами з'являтимуться  з меншою ймовірністю.";
+}
