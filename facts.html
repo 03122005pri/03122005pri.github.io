@@ -9,11 +9,14 @@
 </head>
 <body>
 
+    <a href="#" class="scroll"></a>
+
     <div class="header">
         <h2 class="link"><a href="index.html">головна сторінка</a></h2>
         <h2 class="link"><a href="stats.html">статистика</a></h2>
         <h2 class="link"><a href="vaccine.html">вакцинація</a></h2>
-        <h2 class="link"><a href="facts.html">цікаві факти</a></h2>
+        <h2 class="link-now"><a href="facts.html">правда та міф</a></h2>
+        <h2 class="link"><a href="sources.html">джерела</a></h2>
     </div>
 
     <div class="head">
@@ -27,22 +30,49 @@
         </div>
     </div>
 
-    <div class="block">
-        <div class="title">Міф чи правда?</div>
-            <div class="block_img">
+<div class="block">
+
+        <div class="title">Правда та міф</div>
+            <div class="text-anim _anim-items _anim-no-hide _border">
+                <div class="question">Масова вакцинація призведе до мутації коронавірусу</div>
+                <p class="false">Міф</p>
+                <p class="paragraph" id="p">Масова вакцинація не тільки не призведе до мутації коронавірусу SARS-CoV-2, а й навпаки допоможе запобігти цьому через колективний імунітет. Якщо щепити значну частину населення, то вірусу не буде, де мутувати, і його нові штами з'являтимуться  з меншою ймовірністю.</p>
             </div>
-            <div class="text-anim _anim-items _anim-no-hide">
-                <div class="question">Масова вакцинація призведе до мутації коронавірусу?</div>
-                <div class="buttons">
-                    <p id="true"></p>
-                </div>
-                <p class="paragraph" id="p"></p>
-                <div class="buttons">
-                    <button class="button _yes" onclick="ClickFunction()">правда</button>
-                    <button class="button _no" onclick="ClickFunction()">міф</button>
-            </div>
+
+        <div class="text-anim _anim-items _anim-no-hide _border">
+            <div class="question">Чи можна інфікуватися коронавірусним захворюванням від домашньої тварини?</div>
+                <p class="false">Міф</p>
+                <p class="paragraph" id="p">Немає свідчень, що домашні тварини – такі, як собаки чи коти – можуть поширювати вірус, який викликає COVID-19.</p>
         </div>
-    </div>
+    
+        <div class="text-anim _anim-items _anim-no-hide _border">
+            <div class="question">Людина будь-якої статі та віку може захворіти на коронавірус</div>
+                <p class="true">Правда</p>
+                <p class="paragraph" id="p">Будь-хто. Люди будь-якого віку можуть інфікуватися вірусом, тому всі повинні вживати заходів безпеки, щоб захистити себе, зокрема, часто мити руки милом і водою. Старші люди та будь-хто, хто має інші захворювання (такі, як астма, діабет, серцеві хвороби тощо) є більш вразливими до важкого перебігу коронавірусного захворювання.</p>
+        </div>
+
+
+        <div class="text-anim _anim-items _anim-no-hide _border">
+            <div class="question">60% має бути частка спирту в дезінфікуючих засобах для знищення коронавірусу</div>
+                <p class="true">Правда</p>
+                <p class="paragraph" id="p">Ефективними для знищення коронавірусу є лише ті дезінфікуючі засоби для рук або поверхонь, які містять як мінімум 60% спирту.</p>
+        </div>
+
+
+        <div class="text-anim _anim-items _anim-no-hide _border">
+            <div class="question">Коронавірусне захворювання – це те саме, що грип</div>
+                <p class="false">Міф</p>
+                <p class="paragraph" id="p">Коронавірусне захворювання (COVID-19) та грип – це різні інфекційні захворювання, спричинені різними вірусами. Хоча обидва захворювання дихальних шляхів поширюються аналогічно і можуть мати схожі симптоми, інші характеристики відрізняються. Наприклад, на відміну від COVID-19, проти грипу існує вакцина, і нині в Північній півкулі сезон грипу. Отже, важливо робити профілактику грипу (та запобігати появі симптомів, які можуть бути сприйняті як симптоми COVID-19). Для цього необхідно робити щеплення від грипу та дотримуватися календаря всіх інших щеплень</p>
+        </div>
+        
+        <div class="text-anim _anim-items _anim-no-hide _border">
+            <div class="question">Коронавірусне захворювання поширюється і за теплої, і за холодної температури</div>
+                <p class="false">Міф</p>
+                <p class="paragraph" id="p">Вірус поширюється в місцях як з гарячими, так і з холодними температурами.</p>
+        </div>
+
+</div>
+
 
     <div class="contacts">
         <div class="contacts_moz"><a href="https://moz.gov.ua/kontakti" target="_blank">Контакт-центр МОЗ з питань COVID-19</a> <span class="or">або зателефонуйте </span>

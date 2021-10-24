@@ -16,7 +16,7 @@
     }
 
     .second_block {
-        min-width: 200px;
+        min-height: 300px;
         padding-left: 10%;
         padding-right: 10%;
     }
@@ -27,8 +27,22 @@
         padding-top: 40px;
     }
 
+    .subtitle {
+        font-size: 20px;
+    }
+
     .text-anim {
-        padding: 0px 20px 40px 20px;
+        padding: 40px;
+        font-size: 14px;
+    }
+
+    .text-left-anim {
+        display: block;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 600px;
+        padding: 0px 20px 0px 20px;
         font-size: 14px;
     }
 
@@ -41,7 +55,14 @@
         padding: 40px 20px 40px 20px;
         min-width: 100px;
         max-width: 300px;
-        font-size: 20px;
+        font-size: 14px;
+    }
+
+    .txt {
+        padding: 40px 20px 40px 20px;
+        min-width: 100px;
+        max-width: 300px;
+        font-size: 14px;
     }
 
     .howDoNot_column1 {
@@ -90,9 +111,15 @@
     }
 
     .block {
-        min-width: 200px;
+        min-height: 700px;
         padding-left: 10%;
         padding-right: 10%;
+    }
+    
+    .second_block {
+        min-height: 600px;
+        padding-left: 15%;
+        padding-right: 15%;
     }
 
     .title {
@@ -101,9 +128,20 @@
         padding-top: 60px;
     }
 
-    .text-anim {
-        padding: 0px 20px 40px 20px;
+    .subtitle {
         font-size: 24px;
+    }
+
+    .text-anim {
+        padding: 40px 20px 40px 20px;
+        font-size: 18px;
+    }
+
+    .text-left-anim {
+        text-align: left;
+        max-width: 600px;
+        padding: 10px 20px 40px 20px;
+        font-size: 18px;
     }
 
     .img {
@@ -125,7 +163,14 @@
         padding: 0px 40px 70px 40px;
         min-width: 100px;
         max-width: 700px;
-        font-size: 20px;
+        font-size: 18px;
+    }
+
+    .txt {
+        padding: 40px 20px 40px 0px;
+        min-width: 700px;
+        max-width: 1000px;
+        font-size: 24px;
     }
 
     .howDoNot_column1 {
@@ -146,6 +191,11 @@
         min-height: 200px;
         padding-left: 20px;
         padding-right: 20px;
+    }
+
+    .astra {
+        padding: 0px 40px 80px 40px;
+        max-height: 200px;
     }
 
     .img_center {
@@ -173,13 +223,13 @@
     }
 
     .block {
-        min-width: 400px;
+        min-width: 700px;
         padding-left: 15%;
         padding-right: 15%;
     }
 
     .second_block {
-        min-width: 400px;
+        min-height: 500px;
         padding-left: 15%;
         padding-right: 15%;
     }
@@ -190,9 +240,19 @@
         padding-top: 60px;
     }
 
+    .subtitle {
+        font-size: 40px;
+    }
+
     .text-anim {
         padding: 0px 20px 40px 20px;
-        font-size: 36px;
+        font-size: 24px;
+    }
+
+    .text-left-anim {
+        text-align: left;
+        padding: 0px 20px 40px 20px;
+        font-size: 24px;
     }
 
     .img {
@@ -214,7 +274,7 @@
         padding: 0px 40px 70px 40px;
         min-width: 100px;
         max-width: 700px;
-        font-size: 20px;
+        font-size: 24px;
     }
 
     .howDoNot_column1 {
@@ -261,7 +321,6 @@
     position: fixed;
     bottom: 5%;
     right: 3%;
-    color: #fff;
     width: 40px;
     height: 40px;
     background-color: black;
@@ -276,7 +335,7 @@
 }
 
 .scroll:hover {
-    background-color: red;
+    background-color: aqua;
 }
 
 .header {
@@ -284,6 +343,51 @@
     background-color: rgb(73, 73, 73);
     text-align: center;
 }
+
+.link-now {
+    display: inline-block;
+    background-color: rgb(255, 0, 0);
+    border-radius: 5px;
+    vertical-align: top;
+    padding: 0px 10px 10px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    font-weight: 100;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.linkOn a {
+    display: inline-block;
+    color: blue;
+    text-align: left;
+    border-radius: 5px;
+    vertical-align: top;
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    font-weight: 100;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.link-now a {
+    display: inline-block;
+    color: aliceblue;
+    vertical-align: top;
+    padding: 0px 10px 10px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    font-weight: 100;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
 
 .link, .link a {
     display: inline-block;
@@ -341,7 +445,7 @@
 }
 
 .block {
-    padding-bottom: 100px;
+    padding-bottom: 80px;
     background: #fff;
 }
 
@@ -377,7 +481,7 @@
 
 .second_block {
     background: rgb(245, 245, 245);
-    padding-bottom: 100px;
+    padding-bottom: 80px;
 }
 
 .block_img {
@@ -420,6 +524,12 @@
     vertical-align: top;
 }
 
+.txt {
+    display: absolute;
+    text-align: left;
+    vertical-align: top;
+}
+
 .text_center {
     text-align: center;
     font-style: oblique;
@@ -427,9 +537,8 @@
 }
 
 .text-anim {
-    margin-left: auto;
-    margin-right: auto;
     position: relative;
+    vertical-align: middle;
     min-width: 100px;
     font-size: 24px;
 
@@ -438,18 +547,21 @@
     transition: all 0.8s ease 0s;
 }
 
+._border {
+    border-bottom: 4px dotted red;
+}
+
 .text-anim._active {
     transform: translate(0px, 0px);
     opacity: 1;
     transition: all 0.8s ease 0.8s;
 }
 
-.webmap {
+.webmap, .vaccine {
     color: black;
-    margin: auto;
-    padding: 0px 10px 10px 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding: 20px 20px 20px 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     height: 20px;
     font-weight: 100;
     font-size: 20px;
@@ -462,7 +574,7 @@
     transition: all 0.3s ease;
 }
 
-.webmap a {
+.webmap a, .vaccine a {
     font-size: 16px;
     color: black;
     text-decoration: none;
@@ -479,7 +591,7 @@
     transition: all 0.3s ease;
 }
 
-.webmap:hover a {
+.webmap:hover a, .vaccine:hover a {
     color: #fff;
     background: rgb(255, 0, 0);
 }
@@ -487,7 +599,7 @@
 .img_border, .img_border_wide, .img_center {
     margin-bottom: 40px;
     position: relative;
-    border: 15px outset;
+    border: 10px outset;
     border-color: rgb(119, 0, 255);
     
     transform: translate(0px, 50%);
@@ -501,22 +613,34 @@
     transition: all 0.8s ease 0.4s;
 }
 
-.paragraph, #p, #true {
-    display: inline-block;
+.paragraph, .p, .true {
     text-align: left;
     vertical-align: top;
+    margin-left: auto;
+    margin-right: auto;
     padding: 20px 0px 40px 0px;
     min-width: 100px;
     max-width: 600px;
     font-size: 24px;
 }
 
-#true {
+.true {
     font-size: 36px;
     text-transform: uppercase;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(38, 189, 0);
+    padding: 20px 20px 30px 20px;
+}
+
+.false {
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     color: red;
-    height: 10px;
     padding: 20px 20px 30px 20px;
 }
 
@@ -555,9 +679,8 @@
 
 .subtitle {
     text-align: left;
-    padding: 0px 0px 0px 0px;
-    font-size: 30px;
-    font-weight: 300;
+    padding: 10px;
+    font-weight: 600;
 }
 
 .ifIll_list {
