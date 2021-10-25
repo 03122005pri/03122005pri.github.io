@@ -111,13 +111,13 @@
     }
 
     .block {
-        min-height: 700px;
+        min-height: 500px;
         padding-left: 10%;
         padding-right: 10%;
     }
     
     .second_block {
-        min-height: 600px;
+        min-height: 500px;
         padding-left: 15%;
         padding-right: 15%;
     }
